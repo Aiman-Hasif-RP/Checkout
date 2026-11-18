@@ -1,6 +1,8 @@
 name: Student Info
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   display-student-info:
